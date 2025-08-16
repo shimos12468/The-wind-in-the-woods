@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8201830584624754033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: cc5f7430-5734-45e0-b3e1-e81b68649cf7
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: zzzzzz
+  children:
+  - 8cc3920a-aeef-40c4-96f1-1b94385c3052
+  - 09524eaa-cfd1-4861-bc91-d3ea307ae162
+  rect:
+    serializedVersion: 2
+    x: 11
+    y: -1
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5104531038973019689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 09524eaa-cfd1-4861-bc91-d3ea307ae162
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: psst* hey henwick.
+  children:
+  - c59c1676-1d5b-4b3c-987e-c8fab1bdd7b6
+  rect:
+    serializedVersion: 2
+    x: 264
+    y: 91
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3153467757466213481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 8cc3920a-aeef-40c4-96f1-1b94385c3052
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: WAKE UP!
+  children:
+  - d392a632-5f27-4b62-848a-b1bee771a72d
+  rect:
+    serializedVersion: 2
+    x: 262
+    y: -2
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2362246079348025076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: c59c1676-1d5b-4b3c-987e-c8fab1bdd7b6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: no hay you failed me go away
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 513
+    y: 91
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20020754e2d077c45a6d80bb16361ff0, type: 3}
+  m_Name: Loop 2 fail
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -8201830584624754033}
+  - {fileID: -3153467757466213481}
+  - {fileID: -5104531038973019689}
+  - {fileID: 6041959099437100793}
+  - {fileID: -2362246079348025076}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &6041959099437100793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: d392a632-5f27-4b62-848a-b1bee771a72d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: You failed me
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 512
+    y: -3
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

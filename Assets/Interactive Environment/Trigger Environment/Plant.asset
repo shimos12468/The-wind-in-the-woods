@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53110b4270910d5488dcc883f53d1a30, type: 3}
+  m_Name: Plant
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableEnvInstance
+  environmentType: 3
+  environmentInfo:
+  - name: Plant
+    description: Medium plant
+    sprite: {fileID: 5849599240670376354, guid: 553a16f72319ded4c8e929145715b7be, type: 3}
+    spriteMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - name: strong Plant
+    description: Full Grown plant
+    sprite: {fileID: 21300000, guid: 98f2642b52e0df044b6a3fbddbec1a11, type: 3}
+    spriteMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - name: Plant
+    description: weak plant
+    sprite: {fileID: 21300000, guid: f77a8439147b8f042ab1d13d5d78e902, type: 3}
+    spriteMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}

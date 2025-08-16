@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8478213078498017068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 107da2c3-40ef-469d-89e7-b0e5a6274dec
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'I''ve got enough problems with our brothers kicking my shins all day long
+    and with Jakob... uh... nevermind. Could you talk some sense into them? '
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 887
+    y: 119
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6673608331057950457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: b400b208-576f-4b6a-9d13-cc0529bc3e89
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: ....
+  children:
+  - f60055b2-38e4-43e7-9b01-35ce8d2ba9e8
+  - 98597892-6d7d-41d6-bd36-a93c055bab83
+  rect:
+    serializedVersion: 2
+    x: 75
+    y: 71
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-811839873370418776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: f60055b2-38e4-43e7-9b01-35ce8d2ba9e8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Hey, sister!
+  children:
+  - 8de8210f-3ac3-490e-b167-bf48824d35be
+  rect:
+    serializedVersion: 2
+    x: 324
+    y: 80
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20020754e2d077c45a6d80bb16361ff0, type: 3}
+  m_Name: baseLoop2
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -6673608331057950457}
+  - {fileID: -811839873370418776}
+  - {fileID: 4280273438253668695}
+  - {fileID: 5841073066173490190}
+  - {fileID: 5895735619712674781}
+  - {fileID: -8478213078498017068}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &4280273438253668695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 8de8210f-3ac3-490e-b167-bf48824d35be
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: ...oh hey, Lila. Good to see you, again.
+  children:
+  - 107da2c3-40ef-469d-89e7-b0e5a6274dec
+  rect:
+    serializedVersion: 2
+    x: 606
+    y: 85
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5841073066173490190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 98597892-6d7d-41d6-bd36-a93c055bab83
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: '*ruffles hair* Miss me?'
+  children:
+  - 64922ecd-2fae-469d-b64a-b7cd9100021c
+  rect:
+    serializedVersion: 2
+    x: 327
+    y: 191
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5895735619712674781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 64922ecd-2fae-469d-b64a-b7cd9100021c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Not when you do stuff like that! '
+  children:
+  - 107da2c3-40ef-469d-89e7-b0e5a6274dec
+  rect:
+    serializedVersion: 2
+    x: 584
+    y: 249
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7626907258279652188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 17b62955-e9f8-4fbf-a07c-07e02b8d94ed
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'Hi! I''m Lila! Catch anything? '
+  children:
+  - 52ab9ada-9c86-44fc-90c6-2679082c3f1b
+  rect:
+    serializedVersion: 2
+    x: 250
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5848803612445410154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 52ab9ada-9c86-44fc-90c6-2679082c3f1b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Howdy! You know, everyone here talks about you so much. The name''s Jakob.
+    It''s real nice to meet ya. What brings you to town? '
+  children:
+  - 211b954b-a9ab-4f1d-a0fe-a6c374f01cfd
+  rect:
+    serializedVersion: 2
+    x: 484
+    y: 156
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5230003843643848322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: f5840c86-2074-449b-aaf0-550b5a2dc59e
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'I''m starting to worry about him. Is there anything you could do about it? '
+  children:
+  - dcd27e38-7d7a-4fab-92ac-e7cfde2cd4a5
+  rect:
+    serializedVersion: 2
+    x: 1196
+    y: 158
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2539533593926960451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: dcd27e38-7d7a-4fab-92ac-e7cfde2cd4a5
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Maybe, I'll go talk to him.
+  children:
+  - 8e124388-6f77-433d-adc4-ab295cf2b320
+  rect:
+    serializedVersion: 2
+    x: 1446
+    y: 158
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1312446634966842986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 9f9df450-6b6c-4b01-bc28-00b4965b9a89
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: ....
+  children:
+  - 17b62955-e9f8-4fbf-a07c-07e02b8d94ed
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-148204981370830343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: ca7c2bd1-bba8-4d49-af38-76497ce9aa0d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Weird stuff has definitely been going on. Milo''s been stealing all the
+    food. '
+  children:
+  - f5840c86-2074-449b-aaf0-550b5a2dc59e
+  rect:
+    serializedVersion: 2
+    x: 985
+    y: 156
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20020754e2d077c45a6d80bb16361ff0, type: 3}
+  m_Name: JcobLoop1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -1312446634966842986}
+  - {fileID: -7626907258279652188}
+  - {fileID: -5848803612445410154}
+  - {fileID: 22116980644309694}
+  - {fileID: -148204981370830343}
+  - {fileID: -5230003843643848322}
+  - {fileID: -2539533593926960451}
+  - {fileID: 1055312102682989681}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &22116980644309694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 211b954b-a9ab-4f1d-a0fe-a6c374f01cfd
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: As part of my witch training I was told to check in on the village and see
+    if anything weird is going on.
+  children:
+  - ca7c2bd1-bba8-4d49-af38-76497ce9aa0d
+  rect:
+    serializedVersion: 2
+    x: 734
+    y: 156
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1055312102682989681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 8e124388-6f77-433d-adc4-ab295cf2b320
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: '*Jakob nods his head and goes back to fishing* '
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1696
+    y: 158
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

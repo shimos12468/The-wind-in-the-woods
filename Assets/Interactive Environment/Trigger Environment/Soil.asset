@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53110b4270910d5488dcc883f53d1a30, type: 3}
+  m_Name: Soil
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableEnvInstance
+  environmentType: 6
+  environmentInfo:
+  - name: soil
+    description: ' soil '
+    sprite: {fileID: 4948385032721019753, guid: e94b5384523127d40a183bcd24e91f9e, type: 3}
+    spriteMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - name: planted soil
+    description: soil if they got planted
+    sprite: {fileID: -5163026663965216695, guid: 62bc1575cccd8ba4faf8a78574c25f04, type: 3}
+    spriteMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - name: dead soil
+    description: 'dead '
+    sprite: {fileID: -852900224931947445, guid: a33ba61e617b0f748b074da3af2c6ecf, type: 3}
+    spriteMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}

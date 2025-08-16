@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{b3f7f161-bca1-4fbe-9151-c911d41d3a21}">
+		<property name="assetPath">
+			<value>Snes Buttons_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.40573696145124716</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d9c1aa40-570c-4a6a-9a8f-d6bb7ca7ae95}</destination>
+		</relationship>
+	</object>
+</objects>

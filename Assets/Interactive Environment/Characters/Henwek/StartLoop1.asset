@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8201830584624754033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: cc5f7430-5734-45e0-b3e1-e81b68649cf7
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: ...
+  children:
+  - d0984f4a-bcc3-49da-8df5-36bf01c93da6
+  rect:
+    serializedVersion: 2
+    x: 11
+    y: 7
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-7960215717204733108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 8feff2b0-93a9-4970-8282-643b35d19cbb
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Yeah, pretty good. As part of witch training, I have to check in on the village.
+  children:
+  - 44a701df-da84-478d-b532-1526e61b33b4
+  rect:
+    serializedVersion: 2
+    x: 759
+    y: 217
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3793216070862174362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: bd7d889b-a0bb-4846-8413-c11292fde96d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Good. You're a vegetarian?
+  children:
+  - e643d504-8d00-4aeb-a1bd-f7ac79815475
+  rect:
+    serializedVersion: 2
+    x: 755
+    y: 127
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1912066645935843138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 44a701df-da84-478d-b532-1526e61b33b4
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: '*sniffs* Y-You''re being s-sent on missions now!? That''s so c-cool. '
+  children:
+  - 27ffebf5-737a-45ad-b001-560c6dd5f1f1
+  rect:
+    serializedVersion: 2
+    x: 1010
+    y: 218
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20020754e2d077c45a6d80bb16361ff0, type: 3}
+  m_Name: StartLoop1
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -8201830584624754033}
+  - {fileID: 6125422023540482354}
+  - {fileID: 1220224122978467636}
+  - {fileID: -3793216070862174362}
+  - {fileID: -7960215717204733108}
+  - {fileID: 6794539891670410736}
+  - {fileID: -1912066645935843138}
+  - {fileID: 2256956892527961245}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1220224122978467636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 09db6b2c-7ac2-404c-ad21-03713e2233f9
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: '*zzz* Uh what? Who? Oh *sniff* Hey, Lila. Long time no see. I-It''s this
+    n-new vegetarian diet I-I''m on. But, how have you been? *droops* '
+  children:
+  - bd7d889b-a0bb-4846-8413-c11292fde96d
+  - 8feff2b0-93a9-4970-8282-643b35d19cbb
+  rect:
+    serializedVersion: 2
+    x: 505
+    y: 127
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2256956892527961245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 27ffebf5-737a-45ad-b001-560c6dd5f1f1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'You know, s-since you''re here, c-could you help me with my g-gardening?
+    *gives Lila seeds* For some r-reason, last week M-Milo stole my whole harvest.
+    I''d r-replant them myself but *falls asleep* '
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1277
+    y: 172
+    width: 200
+    height: 100
+  onEnterAction: GotSeeds
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6125422023540482354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: d0984f4a-bcc3-49da-8df5-36bf01c93da6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: '1) Hiya, Henwick! You''re looking sleepy. '
+  children:
+  - 09db6b2c-7ac2-404c-ad21-03713e2233f9
+  rect:
+    serializedVersion: 2
+    x: 277
+    y: 75
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6794539891670410736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: e643d504-8d00-4aeb-a1bd-f7ac79815475
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Yep. N-no more mice for me. *eyes droop* '
+  children:
+  - 27ffebf5-737a-45ad-b001-560c6dd5f1f1
+  rect:
+    serializedVersion: 2
+    x: 1006
+    y: 124
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{ac210efd-604a-4de0-a267-8488c8b6447d}">
+		<property name="assetPath">
+			<value>HenwickDialogue#03_bip.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.75206249999999997</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d9c1aa40-570c-4a6a-9a8f-d6bb7ca7ae95}</destination>
+		</relationship>
+	</object>
+</objects>

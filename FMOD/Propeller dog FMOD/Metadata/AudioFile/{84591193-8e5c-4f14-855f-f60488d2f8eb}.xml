@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{84591193-8e5c-4f14-855f-f60488d2f8eb}">
+		<property name="assetPath">
+			<value>Propellr dog jam MUSIC.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>60</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d9c1aa40-570c-4a6a-9a8f-d6bb7ca7ae95}</destination>
+		</relationship>
+	</object>
+</objects>

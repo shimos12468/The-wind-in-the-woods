@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8251123412713408061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 685ab92e-794a-469a-a5ec-2836ef7dc1f5
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Oh, sourdough bread sounds just perfect!
+  children:
+  - 1fd69f80-c316-4eca-9059-7e3423b55fd1
+  rect:
+    serializedVersion: 2
+    x: 956
+    y: 164
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Bread
+  condition:
+    and: []
+--- !u!114 &-4449186298207966301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 15d44b8f-e752-4f97-a8fa-2b8d92f48189
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'But first, I''ve made some Carrot and Three Peas stew and some sourdough
+    bread. Which would you like? '
+  children:
+  - f0a7b3e1-20a4-43e5-89f7-9b23579826b6
+  - 685ab92e-794a-469a-a5ec-2836ef7dc1f5
+  rect:
+    serializedVersion: 2
+    x: 732
+    y: 76
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3374625244945009090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 6d707946-69eb-4ff8-9579-b16428c95aa6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'What? Oh, Lila, sweetie. I don''t know what came over me. Thank you for
+    helping us with your magic. I''d better get the boys to apologize for all that
+    kicking. '
+  children:
+  - 15d44b8f-e752-4f97-a8fa-2b8d92f48189
+  rect:
+    serializedVersion: 2
+    x: 489
+    y: 122
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-451749648344726486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 1fd69f80-c316-4eca-9059-7e3423b55fd1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Enjoy it, darling.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1241
+    y: 93
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20020754e2d077c45a6d80bb16361ff0, type: 3}
+  m_Name: FoundKids
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 5859268224094784958}
+  - {fileID: 5980266657408487340}
+  - {fileID: 8422315397502336727}
+  - {fileID: 4421519785082125641}
+  - {fileID: -3374625244945009090}
+  - {fileID: -4449186298207966301}
+  - {fileID: 7796402439995175290}
+  - {fileID: -8251123412713408061}
+  - {fileID: -451749648344726486}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &4421519785082125641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: cc9a1d23-2b6f-4b91-93a1-0a3642e5f4df
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Lila, oh I''m so happy you''re back again. My head feels a bit weird. I''d
+    better get the boys to apologize for all that kicking. '
+  children:
+  - 15d44b8f-e752-4f97-a8fa-2b8d92f48189
+  rect:
+    serializedVersion: 2
+    x: 502
+    y: 37
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5859268224094784958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 0177deed-35f9-42fc-a8d5-34a412e9c47c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: ..
+  children:
+  - abb31531-8017-441f-8f94-186d7b83db8a
+  - 57a5e813-40c6-477c-9a9a-5fa94942ea17
+  rect:
+    serializedVersion: 2
+    x: 3
+    y: 13
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5980266657408487340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: abb31531-8017-441f-8f94-186d7b83db8a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Hey, mama! Feeling better?
+  children:
+  - cc9a1d23-2b6f-4b91-93a1-0a3642e5f4df
+  rect:
+    serializedVersion: 2
+    x: 243
+    y: 34
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7796402439995175290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: f0a7b3e1-20a4-43e5-89f7-9b23579826b6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'Carrot and Three Peas stew with an extra pea, please! '
+  children:
+  - 1fd69f80-c316-4eca-9059-7e3423b55fd1
+  rect:
+    serializedVersion: 2
+    x: 969
+    y: 35
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Carrott
+  condition:
+    and: []
+--- !u!114 &8422315397502336727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 57a5e813-40c6-477c-9a9a-5fa94942ea17
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'Kicking shins? Really? '
+  children:
+  - 6d707946-69eb-4ff8-9579-b16428c95aa6
+  rect:
+    serializedVersion: 2
+    x: 239
+    y: 123
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

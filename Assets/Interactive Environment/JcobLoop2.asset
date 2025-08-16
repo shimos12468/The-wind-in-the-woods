@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7626907258279652188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 17b62955-e9f8-4fbf-a07c-07e02b8d94ed
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Any luck finding that fish?
+  children:
+  - 52ab9ada-9c86-44fc-90c6-2679082c3f1b
+  rect:
+    serializedVersion: 2
+    x: 266
+    y: 103
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5848803612445410154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 52ab9ada-9c86-44fc-90c6-2679082c3f1b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'I''ve just been thinking about how I can lure out Makoila. Oh yeah, that''s
+    her name. Saw it in a book in the library. '
+  children:
+  - ca7c2bd1-bba8-4d49-af38-76497ce9aa0d
+  rect:
+    serializedVersion: 2
+    x: 485
+    y: 174
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2539533593926960451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: dcd27e38-7d7a-4fab-92ac-e7cfde2cd4a5
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Maybe, I'll go talk to him.
+  children:
+  - 8e124388-6f77-433d-adc4-ab295cf2b320
+  rect:
+    serializedVersion: 2
+    x: 1446
+    y: 158
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1312446634966842986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 9f9df450-6b6c-4b01-bc28-00b4965b9a89
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: ....
+  children:
+  - 17b62955-e9f8-4fbf-a07c-07e02b8d94ed
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-148204981370830343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: ca7c2bd1-bba8-4d49-af38-76497ce9aa0d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Hey, you know what, I could use your help. I''m looking for some food to
+    use as bait. Something starchy I think will do the trick. Bring it to me if you
+    can! Trust me, you''re gonna want to see this beauty! '
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 720
+    y: 147
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20020754e2d077c45a6d80bb16361ff0, type: 3}
+  m_Name: JcobLoop2
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -1312446634966842986}
+  - {fileID: -7626907258279652188}
+  - {fileID: -5848803612445410154}
+  - {fileID: -148204981370830343}
+  - {fileID: -2539533593926960451}
+  - {fileID: 1055312102682989681}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1055312102682989681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 8e124388-6f77-433d-adc4-ab295cf2b320
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: '*Jakob nods his head and goes back to fishing* '
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1696
+    y: 158
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

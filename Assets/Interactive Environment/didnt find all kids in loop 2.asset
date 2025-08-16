@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8902934010925062567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: bd757c50-1fb9-4549-a9ff-8b27737fb0ec
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I am tired
+  children:
+  - a5c2b121-3702-4692-81d8-9379e1ca736d
+  rect:
+    serializedVersion: 2
+    x: 250
+    y: 175
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20020754e2d077c45a6d80bb16361ff0, type: 3}
+  m_Name: didnt find all kids in loop 2
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 3165189493345168684}
+  - {fileID: 1299329615147789792}
+  - {fileID: -8902934010925062567}
+  - {fileID: 7078250721486747013}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1299329615147789792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 985da869-c65c-4b8b-a67d-8c6690f8d523
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I am on it ma
+  children:
+  - a5c2b121-3702-4692-81d8-9379e1ca736d
+  rect:
+    serializedVersion: 2
+    x: 268
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3165189493345168684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: a1f36676-eafa-488c-a0bb-2d63dc6cf6b8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: there still some left
+  children:
+  - 985da869-c65c-4b8b-a67d-8c6690f8d523
+  - bd757c50-1fb9-4549-a9ff-8b27737fb0ec
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7078250721486747013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: a5c2b121-3702-4692-81d8-9379e1ca736d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: please son
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 530
+    y: 101
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

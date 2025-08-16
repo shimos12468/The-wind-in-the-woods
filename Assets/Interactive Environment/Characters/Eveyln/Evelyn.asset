@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8546861134599307656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: a60cd0e9-e36c-4dce-a9c0-3346125dade3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Thanks, sweetie. '
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1065
+    y: 207
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: FindKids
+  condition:
+    and: []
+--- !u!114 &-8234966433159240899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 0a903fbe-3d07-4a85-a64b-023582382a36
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Oh Lila! Sweetie, how are you? *big smooch* I didn''t think you''d be back
+    to soon. I would''ve planned something. Anyways dinner is nearly ready. Can you
+    go and get your 3 little brothers? They were playing around the village.  '
+  children:
+  - 3ffce77c-7729-4983-8f58-f124a8948cd2
+  - 7eccefa9-a4a2-41ae-93b3-d0be2eaa41b0
+  rect:
+    serializedVersion: 2
+    x: 546
+    y: 68
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20020754e2d077c45a6d80bb16361ff0, type: 3}
+  m_Name: Evelyn
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 5859268224094784958}
+  - {fileID: -8234966433159240899}
+  - {fileID: 748384472975284118}
+  - {fileID: 5249490853784333713}
+  - {fileID: 7455211937981651298}
+  - {fileID: 7516152287515977377}
+  - {fileID: -8546861134599307656}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &748384472975284118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: ebbbb0f7-b102-4161-84b6-9ccb1ea2beda
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'Hey Mom! I''m back! '
+  children:
+  - 0a903fbe-3d07-4a85-a64b-023582382a36
+  rect:
+    serializedVersion: 2
+    x: 253
+    y: 37
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5249490853784333713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 3ffce77c-7729-4983-8f58-f124a8948cd2
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Do I have to? I just got back.
+  children:
+  - ecd9feab-ced4-48d7-a864-78b38b021138
+  rect:
+    serializedVersion: 2
+    x: 820
+    y: 40
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5859268224094784958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 0177deed-35f9-42fc-a8d5-34a412e9c47c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: ....
+  children:
+  - ebbbb0f7-b102-4161-84b6-9ccb1ea2beda
+  rect:
+    serializedVersion: 2
+    x: 3
+    y: 14
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7455211937981651298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: 7eccefa9-a4a2-41ae-93b3-d0be2eaa41b0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Ok, I'll go get them.
+  children:
+  - a60cd0e9-e36c-4dce-a9c0-3346125dade3
+  rect:
+    serializedVersion: 2
+    x: 801
+    y: 209
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7516152287515977377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682c531190610744a9a5e8627450547, type: 3}
+  m_Name: ecd9feab-ced4-48d7-a864-78b38b021138
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: 'Yes, you have to. '
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1093
+    y: 39
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: FindKids
+  condition:
+    and: []

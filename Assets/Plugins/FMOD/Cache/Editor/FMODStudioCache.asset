@@ -1,0 +1,813 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8559707827003082731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Propeller dog FMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638905443357941528
+  FileSizes:
+  - Name: Desktop
+    Value: 1410
+  Exists: 1
+--- !u!114 &-8012933044552877731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Propeller dog FMOD/Build/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 638905443357926477
+  FileSizes:
+  - Name: Desktop
+    Value: 506
+  Exists: 1
+--- !u!114 &-7883738168860602554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UiButton1
+  m_EditorClassIdentifier: 
+  Path: event:/UiButton1
+  Guid:
+    Data1: -1587987636
+    Data2: 1149739280
+    Data3: -536018015
+    Data4: -930455135
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7877163607252601262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LilaDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/LilaDialogue
+  Guid:
+    Data1: -1301862594
+    Data2: 1262394670
+    Data3: 1927159953
+    Data4: 853469808
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7451938131131968735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UiButton2
+  m_EditorClassIdentifier: 
+  Path: event:/UiButton2
+  Guid:
+    Data1: -724386647
+    Data2: 1270022638
+    Data3: 179145869
+    Data4: -1038011907
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5977548264104647383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music
+  Guid:
+    Data1: 1122044776
+    Data2: 1207600902
+    Data3: 1466292112
+    Data4: -1228406213
+  Banks:
+  - {fileID: -2370177744847391151}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 60000
+--- !u!114 &-5908582636754106528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NpcDialogue/HenwickDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/NpcDialogue/HenwickDialogue
+  Guid:
+    Data1: 496586821
+    Data2: 1248082029
+    Data3: -681929832
+    Data4: 385136841
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5218013197702553470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Propeller dog FMOD/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638905443357941528
+  FileSizes:
+  - Name: Desktop
+    Value: 1074
+  Exists: 1
+--- !u!114 &-4428256977617588591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NpcDialogue/ToniDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/NpcDialogue/ToniDialogue
+  Guid:
+    Data1: 1129817462
+    Data2: 1211950452
+    Data3: 2038618039
+    Data4: 777588748
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2542041258145787953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NpcDialogue/DialogueClose
+  m_EditorClassIdentifier: 
+  Path: event:/NpcDialogue/DialogueClose
+  Guid:
+    Data1: -1114153528
+    Data2: 1234609252
+    Data3: 712773047
+    Data4: -957588834
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2370177744847391151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Propeller dog FMOD/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638905443357991584
+  FileSizes:
+  - Name: Desktop
+    Value: 855552
+  Exists: 1
+--- !u!114 &-1421683546708026949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NpcDialogue/EvelynDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/NpcDialogue/EvelynDialogue
+  Guid:
+    Data1: -2076977105
+    Data2: 1125793156
+    Data3: -721961083
+    Data4: 200789440
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1168742007166016010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music
+  Guid:
+    Data1: 1122044776
+    Data2: 1207600902
+    Data3: 1466292112
+    Data4: -1228406213
+  Banks:
+  - {fileID: -2370177744847391151}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 60000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -8559707827003082731}
+  - {fileID: -8012933044552877731}
+  - {fileID: -5218013197702553470}
+  - {fileID: -2370177744847391151}
+  - {fileID: 4481090873543589119}
+  EditorEvents:
+  - {fileID: 6483516558537642429}
+  - {fileID: 3892876771068130677}
+  - {fileID: 466157826336765146}
+  - {fileID: 1937310460508686144}
+  - {fileID: 6860125740421197963}
+  - {fileID: -2542041258145787953}
+  - {fileID: 7842372806244676888}
+  - {fileID: 1304133024745314807}
+  - {fileID: -1168742007166016010}
+  - {fileID: 3617221322039746983}
+  - {fileID: 4545613882011365187}
+  - {fileID: 4392541445279205426}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -5218013197702553470}
+  StringsBanks:
+  - {fileID: -8559707827003082731}
+  cacheVersion: 131848
+  cacheTime: 638905443358021570
+  SerializableEventsDict:
+  - key: event:/NpcDialogue/JakobDialogue
+    index: 0
+  - key: event:/NpcDialogue/EvelynDialogue
+    index: 1
+  - key: event:/NpcDialogue/HenwickDialogue
+    index: 2
+  - key: event:/NpcDialogue/ToniDialogue
+    index: 3
+  - key: event:/NpcDialogue/MiloDialogue
+    index: 4
+  - key: event:/NpcDialogue/DialogueClose
+    index: 5
+  - key: event:/LilaDialogue
+    index: 6
+  - key: event:/NpcDialogue/KidsDialogue
+    index: 7
+  - key: event:/Music
+    index: 8
+  - key: event:/UiButton1
+    index: 9
+  - key: event:/ItemPickup
+    index: 10
+  - key: event:/UiButton2
+    index: 11
+--- !u!114 &466157826336765146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NpcDialogue/HenwickDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/NpcDialogue/HenwickDialogue
+  Guid:
+    Data1: 496586821
+    Data2: 1248082029
+    Data3: -681929832
+    Data4: 385136841
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1040838006804089982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ItemPickup
+  m_EditorClassIdentifier: 
+  Path: event:/ItemPickup
+  Guid:
+    Data1: -589740665
+    Data2: 1234794927
+    Data3: -675984196
+    Data4: 1020736798
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1304133024745314807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NpcDialogue/KidsDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/NpcDialogue/KidsDialogue
+  Guid:
+    Data1: 1723738245
+    Data2: 1078555872
+    Data3: -626770282
+    Data4: 142342382
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1838290280880516184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NpcDialogue/DialogueClose
+  m_EditorClassIdentifier: 
+  Path: event:/NpcDialogue/DialogueClose
+  Guid:
+    Data1: -1114153528
+    Data2: 1234609252
+    Data3: 712773047
+    Data4: -957588834
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1937310460508686144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NpcDialogue/ToniDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/NpcDialogue/ToniDialogue
+  Guid:
+    Data1: 1129817462
+    Data2: 1211950452
+    Data3: 2038618039
+    Data4: 777588748
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3617221322039746983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UiButton1
+  m_EditorClassIdentifier: 
+  Path: event:/UiButton1
+  Guid:
+    Data1: -1587987636
+    Data2: 1149739280
+    Data3: -536018015
+    Data4: -930455135
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3715335900752772127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NpcDialogue/MiloDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/NpcDialogue/MiloDialogue
+  Guid:
+    Data1: -1395161950
+    Data2: 1312310522
+    Data3: -914471551
+    Data4: 827088743
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3892876771068130677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NpcDialogue/EvelynDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/NpcDialogue/EvelynDialogue
+  Guid:
+    Data1: -2076977105
+    Data2: 1125793156
+    Data3: -721961083
+    Data4: 200789440
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4392541445279205426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UiButton2
+  m_EditorClassIdentifier: 
+  Path: event:/UiButton2
+  Guid:
+    Data1: -724386647
+    Data2: 1270022638
+    Data3: 179145869
+    Data4: -1038011907
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4481090873543589119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Sfx.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD/Propeller dog FMOD/Build/Desktop/Sfx.bank
+  Name: Sfx
+  StudioPath: bank:/Sfx
+  lastModified: 638905443358021570
+  FileSizes:
+  - Name: Desktop
+    Value: 331680
+  Exists: 1
+--- !u!114 &4545613882011365187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ItemPickup
+  m_EditorClassIdentifier: 
+  Path: event:/ItemPickup
+  Guid:
+    Data1: -589740665
+    Data2: 1234794927
+    Data3: -675984196
+    Data4: 1020736798
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4639800308787142259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NpcDialogue/JakobDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/NpcDialogue/JakobDialogue
+  Guid:
+    Data1: 341733934
+    Data2: 1089261294
+    Data3: 435885453
+    Data4: 645198820
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6483516558537642429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NpcDialogue/JakobDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/NpcDialogue/JakobDialogue
+  Guid:
+    Data1: 341733934
+    Data2: 1089261294
+    Data3: 435885453
+    Data4: 645198820
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6860125740421197963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NpcDialogue/MiloDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/NpcDialogue/MiloDialogue
+  Guid:
+    Data1: -1395161950
+    Data2: 1312310522
+    Data3: -914471551
+    Data4: 827088743
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7842372806244676888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LilaDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/LilaDialogue
+  Guid:
+    Data1: -1301862594
+    Data2: 1262394670
+    Data3: 1927159953
+    Data4: 853469808
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8500036531855459796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NpcDialogue/KidsDialogue
+  m_EditorClassIdentifier: 
+  Path: event:/NpcDialogue/KidsDialogue
+  Guid:
+    Data1: 1723738245
+    Data2: 1078555872
+    Data3: -626770282
+    Data4: 142342382
+  Banks:
+  - {fileID: 4481090873543589119}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
